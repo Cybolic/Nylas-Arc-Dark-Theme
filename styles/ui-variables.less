@@ -173,6 +173,12 @@ body {
   }
 }
 
+///SPINNER
+.pending-spinner > img {
+  // Turn the spinner from black on white to white on Arc dark blue
+  filter: invert(100%) brightness(150%) contrast(50%) sepia(50%) saturate(130%) hue-rotate(185deg);
+}
+
 .thread-list, .draft-list {
   .list-item {
     background-color: @button-color-outline;
