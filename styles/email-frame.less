@@ -1,3 +1,5 @@
+@import "ui-variables";
+
 .ignore-in-parent-frame {
   body {
     -webkit-filter: invert() hue-rotate(180deg);
@@ -6,4 +8,7 @@
   img {
     -webkit-filter: invert() hue-rotate(180deg);
   }
+}
+#message-list .message-item-wrap .message-item-white-wrap.composer-outer-wrap {
+  background-color: @arc-hover !important;
 }
